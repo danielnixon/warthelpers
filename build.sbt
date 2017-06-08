@@ -1,10 +1,10 @@
 import scalariform.formatter.preferences._
 
 val scala210 = "2.10.6"
-val scala211 = "2.11.8"
-val scala212 = "2.12.1"
-val wartremoverVersion = "2.0.1"
-val coursierVersion = "1.0.0-M15-1"
+val scala211 = "2.11.11"
+val scala212 = "2.12.2"
+val wartremoverVersion = "2.1.0"
+val coursierVersion = "1.0.0-RC3"
 
 lazy val commonSettings = Seq(
   organization := "org.danielnixon",
